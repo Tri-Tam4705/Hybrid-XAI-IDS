@@ -1,0 +1,11 @@
+project:
+  name: Hybrid-XAI-IDS
+  random_state: 42
+
+dataset:
+  cic_path: ""
+  unsw_path: ""
+
+training:
+  test_size: 0.2
+  validation_size: 0.1

@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# HYBRID-XAI-IDS PROJECT
+
+# Dataset - never commit raw datasets
+data/*
+!data/README.md
+
+# Trained models - stored locally / Google Drive
+models/*
+!models/README.md
+
+# Experiment results - stored locally / Google Drive
+results/*
+!results/README.md
+
+# Local configuration
+configs/local.yaml
+
+# VS Code local settings
+.vscode/
